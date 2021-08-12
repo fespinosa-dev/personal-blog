@@ -1,3 +1,8 @@
+body {
+  border-top: 5px solid #42b6f3;
+  padding: 50px 0;
+}
+
 .content {
   max-width: 600px;
   margin: 0 auto;
