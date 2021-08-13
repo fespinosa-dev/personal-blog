@@ -3,7 +3,7 @@ import SocialLink from "./SocialLink";
 
 const Social = ({ website, twitter, github, linkedin }) => {
   return (
-    <Wrapper>
+    <Wrapper className="text-xs  md:text-sm">
       {website && (
         <SocialLink href={website} target="_blank" rel="noopener">
           <svg
