@@ -1,23 +1,11 @@
 import "./index.css";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="content">
-      <header>
-        <div class="grid grid-cols-2">
-          <h1>
-            <span>
-              <a href="/">
-                fespinosa.<span>dev</span>
-              </a>
-            </span>
-          </h1>
-          <p>
-            writing by <a href="#">Fernando Espinosa</a>
-          </p>
-        </div>
-      </header>
+      <Header />
     </div>
   );
 }
