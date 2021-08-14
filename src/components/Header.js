@@ -14,7 +14,7 @@ const Header = () => {
           </h1>
           <p className="text-gray-600">
             writing by{" "}
-            <a className="text-blue-1000 font-sans" href="#">
+            <a className="text-blue-1000 font-sans" href="/">
               Fernando Espinosa
             </a>
           </p>
